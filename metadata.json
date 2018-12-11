@@ -7,10 +7,18 @@
   }],
   "license": "",
   "name": "Dimitri-rsyslog",
-  "operatingsystem_support": [],
-  "project_page": "",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04",
+        "16.04"
+      ]
+    }
+  ],
+  "project_page": "https://github.com/anon-admin/rsyslog",
   "requirements": [],
-  "source": "",
+  "source": "https://github.com/anon-admin/rsyslog",
   "summary": "",
   "tags": [],
   "version": "0.1.0"
