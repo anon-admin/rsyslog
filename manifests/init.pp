@@ -1,16 +1,11 @@
-# Class: rsyslog
+# A description of what this class does
 #
-# This module manages rsyslog
+# @summary A short summary of the purpose of this class
 #
-# Parameters: none
-#
-# Actions:
-#
-# Requires: see Modulefile
-#
-# Sample Usage:
-#
-class rsyslog inherits rsyslog::config {
-  contain rsyslog::logrotate::rsyslog
-  contain rsyslog::monit
+# @example
+#   include rsyslog
+class rsyslog {
+  include rsyslog::service
+  include rsyslog::logrotate::rsyslog
+  include rsyslog::monit
 }
